@@ -1,0 +1,10 @@
+name: myenv2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - ipython
+  - pip
+  - pip:
+    - google-cloud-aiplatform
